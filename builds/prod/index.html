@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Angular Localization</title>
+    <title>Angularjs Event Bindings From Directives</title>
     <!-- inject:css -->
     <link rel="stylesheet" href="assets/vendor/css/vendor.min.css">
     <!-- endinject -->
@@ -19,10 +19,19 @@
 </head>
 
 <body ng-app="app">
-    <div ui-view></div>
+    <div class="container">
+        <div class="page-header">
+            <h1>Angularjs Event Bindings From Directives</h1>
+        </div>
+        <div>
+            <button class="btn btn-primary" click-directive mouseover-directive mouseout-directive>Mouse over, mouse out or click me</button>
+        </div>
+        <div id="console"></div>
+    </div>
+    </div>
     <!-- inject:js -->
     <script src="assets/vendor/js/vendor.js"></script>
-    <script src="app/angularjs-localization-app-1.0.0.min.js"></script>
+    <script src="app/angularjs-event-binding-from-directives-1.0.0.min.js"></script>
     <!-- endinject -->
 </body>
 
